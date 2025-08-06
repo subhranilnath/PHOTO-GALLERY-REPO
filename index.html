@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+   <section>
+
+     <!--for Login Box -->
+
+   <div class="login-box">
+        <form action="">
+           
+            <h2>Log in</h2>
+           
+     <!-- for email -->
+           
+            <div class="input-box">
+
+                  <!-- for icon -->
+
+                <span class="icon"><ion-icon name="mail-sharp"></ion-icon></span>
+                
+                <!-- for input -->
+                
+                <input type="text" placeholder="Username(CAPS)" id="Username" required >
+            </div>
+           
+     <!-- for password -->
+           
+            <div class="input-box">
+
+                  <!-- for icon -->
+
+                <span class="icon"><ion-icon name="lock-closed-sharp"></ion-icon></span>
+                
+                 <!-- for input -->
+
+                 <input type="password" placeholder="password(NUM)" id="password" required >
+            </div>
+            
+            <!-- for remember forgot checkbox -->
+            
+            <div class="remember-forgot">
+                 <label><input type="checkbox">Remember me</label>
+                 <!-- <a href="@">Need help?</a> -->
+            </div>
+        
+            <!-- for button -->
+
+            <label>
+                <input type="button" onclick="login ()" id="submit" value="Login">
+            </label>
+             
+             <!-- for signup link -->
+             
+            <div class="signup-hint">
+              <p>Username Hint : BG LOGO.</p>
+              <p>password Hint : ILOVEIRONMAN.</p>
+            </div> 
+            
+
+             <!-- for learn more link -->
+
+            <div class="learn-more">
+                <h5>Confused ? Please check the <span>project description!</span> </h5>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- js part -->
+<script src="script.js"></script>
+
+    <!--js for icons -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

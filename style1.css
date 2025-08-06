@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('Background/bg2.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box {
+          position: relative;
+          width: 400px;
+          height: 550px;
+          background: transparent;
+          border: 2px solid rgba(255, 255, 255,.5);
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;    
+          align-items: center; 
+          backdrop-filter: blur(15px);
+
+}
+h2 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 1000px #00000000 inset !important; /* transparent bg */
+    -webkit-text-fill-color: white !important; /* or your desired text color */
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+.input-box ::placeholder {
+    color: white;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remember-forgot {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input {
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration:underline ;
+}
+
+#submit {
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: black;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.signup-hint {
+    font-size: .9em;
+    color: white;
+    margin: 25px 0 10px;
+}
+
+.learn-more {
+    color: white;
+    margin-top: 20px;
+}
+
+span {
+    color: #afa164;
+}
+
+@media (max-width: 360px) {
+    .login-box {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+
+    .input-box{
+        width: 290px;
+    }
+    .logo  {
+        left: 20px;
+    }
+}

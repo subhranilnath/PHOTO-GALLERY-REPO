@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url(Background/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+img {
+    opacity: 0.92;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    
+}
+.container .heading {
+ width: 50%;
+ padding-bottom: 50px;
+}
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: rgb(226, 65, 65);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.container .heading h3 span {
+    font-weight: 100; 
+    color: white; 
+}
+.container .box {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+}
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1%;
+}
+.container .box .dream img{
+ width: 100%;
+ padding-bottom:15px ;
+ border-radius: 5%;
+}
+.botton {
+    margin: 40px 0 70px 0;
+    background-color: rgb(238, 240, 118);
+    padding: 15px 40px;
+    border-radius: 5%;
+}
+.botton a {
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+/* for responsiveness */
+
+@media only screen and (max-width:912px){
+    .container .box {
+        flex-direction: column;     
+    }
+    .container .box .dream {
+        width: 100%;
+    }
+    .container .heading h3 {
+        font-size: 40px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+    body {
+        background-image: url(Background/bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+}
+@media only screen and (max-width:769px){
+    .container .box {
+        flex-direction: column;     
+    }
+    .container .box .dream {
+        width: 100%;
+    }
+    .container .heading h3 {
+        font-size: 40px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+    body {
+        background-image: url(Background/bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+}
+@media only screen and (max-width:697px){
+    .container .heading h3 {
+        font-size: 20px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+    body {
+        background-image: url(Background/bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+}
+@media only screen and (max-width:280px){
+    .container .heading h3 {
+        font-size: 14px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+    body {
+        background-image: url(Background/bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+}
