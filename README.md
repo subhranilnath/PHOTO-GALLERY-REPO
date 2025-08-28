@@ -1,4 +1,6 @@
-# 📸 Marvel Photo Gallery
+<img src="https://github.com/subhranilnath/screenshots/blob/main/ss/Presentation.png" width="100%">
+
+# 📸 Photo Gallery
 
 A themed photo gallery showcasing Marvel characters, built using HTML, CSS, and JavaScript.  
 Access is protected by a Marvel-inspired login (Username: AVENGERS | Password: 3000), making it an engaging experience for fans.
@@ -12,7 +14,7 @@ To creatively demonstrate frontend development skills while integrating pop cult
 - JavaScript  
 
 ## 🚀 How to Use
-1. Visit the gallery: [Marvel Photo Gallery](https://my-photo-gallery-3000.netlify.app/)  
+1. Visit the gallery: [Photo Gallery](https://my-photo-gallery-3000.netlify.app/)  
 2. Enter the login credentials
 3. Explore and enjoy the Marvel-themed images.
 
